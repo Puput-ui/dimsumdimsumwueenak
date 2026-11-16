@@ -1703,3 +1703,25 @@ padding-right: 10px;
   height: 18px;
   accent-color: var(--hijau-tua);
 }
+
+/* ===== PERBAIKAN LEBAR DI HP ===== */
+.kepala-isi,
+.cari {
+  min-width: 0;
+  max-width: 100%;
+}
+
+.cari input {
+  flex: 1 1 0;
+  width: 0;
+  min-width: 0;
+}
+
+.tombol-cari {
+  flex-shrink: 0;
+}
+
+html,
+body {
+  overflow-x: hidden;
+}
