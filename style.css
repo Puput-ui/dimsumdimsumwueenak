@@ -1686,3 +1686,20 @@ padding-right: 10px;
   padding: 20px 12px; 
 } 
 }
+
+/* ===== FITUR TAMPILKAN PASSWORD ===== */
+.tampil-sandi {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 4px;
+  color: var(--teks);
+  font-size: 0.85rem;
+  cursor: pointer;
+}
+
+.tampil-sandi input {
+  width: 18px;
+  height: 18px;
+  accent-color: var(--hijau-tua);
+}
